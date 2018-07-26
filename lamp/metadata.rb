@@ -1,6 +1,6 @@
 name 'lamp'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Colin Wood
+maintainer_email 'woodce@gmail.com'
 license 'All Rights Reserved'
 description 'Installs/Configures lamp'
 long_description 'Installs/Configures lamp'
@@ -18,3 +18,6 @@ chef_version '>= 12.14' if respond_to?(:chef_version)
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/lamp'
+
+# Dependencies
+depends 'httpd', '~> 0.6'
