@@ -1,5 +1,5 @@
 name 'lamp'
-maintainer 'Colin Wood
+maintainer 'Colin Wood'
 maintainer_email 'woodce@gmail.com'
 license 'All Rights Reserved'
 description 'Installs/Configures lamp'
