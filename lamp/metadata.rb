@@ -22,3 +22,4 @@ chef_version '>= 12.14' if respond_to?(:chef_version)
 
 # Dependencies
 depends 'httpd', '~> 0.6'
+depends 'mysql', '~> 8.5'
